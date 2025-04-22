@@ -1,0 +1,575 @@
+*,body {
+   font-family: sans-serif; 
+   margin: 0px; 
+   padding: 0px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+/* Централизация сайта*/
+.container {
+    max-width: 1200px; 
+    margin: 0px auto;
+}
+
+/* обработка персональных данных */
+.info_p {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #595959;
+    line-height: 16px;
+    width: 300px;
+    margin-bottom: 100px;
+}
+
+.info_a {
+    color: #4754EB;
+    text-decoration: none;
+}
+
+/* Кнопки */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+
+    border-radius: 10px;
+    padding: 12px 24px;
+}
+
+.btn-white {
+    background-color: white;
+    color: #4754EB;
+}
+
+.btn-blue {
+    background-color: #4754EB;
+    color: #fff;
+}
+
+.promo input[type="email"], 
+.discount input[type="email"],
+.connection .pole {
+    border: none;
+    background-color: #F2F2F2;
+    border-radius: 12px;   
+    padding: 15px 270px 15px 10px;
+}
+.connection .pol {
+    padding-right: 270px;
+}
+
+/* Убрать фокус */
+.promo input[type="email"]:focus, 
+.discount input[type="email"]:focus {
+    outline: none;
+}
+
+/* сдвиг кнопки */
+.promo input[type="submit"],
+.discount input[type="submit"] {
+    background-color: #ffffffb7;
+    border: none;
+    border-radius: 12px;   
+    color: #4754EB;
+    padding: 10px 20px;
+    margin-left: -117px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* меню */
+header {
+    padding-top: 15px;
+}
+
+header .container > a:nth-of-type(1) {
+    text-decoration: none;
+}
+
+header ul {
+    margin-left: 292px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 96px;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header ul li:last-child {
+    margin-right: 0;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #808080;
+}
+
+header button {
+    border: none;
+    background-color: transparent;
+}
+
+header button:nth-of-type(1) {
+    color: #4754EB;
+}
+
+header span, header button:nth-of-type(2) {
+    color: #808080;
+}
+
+header .container > a:last-of-type { 
+    font-weight: bold;
+} 
+
+header .btn {
+    margin-left: 20px;
+}
+
+/* promo - высокий уровень вовлечения */
+.promo {
+    background-image: linear-gradient(to top right, rgba(210, 118, 247, 0.658) 10%,rgb(177, 181, 219),white 45%);
+    background-color: #ccc;
+    padding: 80px 0;
+}
+
+.promo h1 {
+    font-size: 56px;
+    line-height: 70px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.promo .desc > a:last-of-type {
+    text-decoration: none;
+    color: #fff;
+} 
+
+.promo .desc > a:last-of-type img {
+    vertical-align: middle;
+} 
+
+.promo .desc {
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+}
+
+.promo .container > img {
+    width: 40%;
+}
+
+/* advantages - наши преимущества */
+.advantages .item {
+    display: inline-block;
+    width: 30%;
+    margin-right: 40px;
+}
+
+.advantages .item:last-child {
+    margin-right: 0;
+}
+
+.advantages .item h3 {
+    display: inline-block;
+    vertical-align: 20px;
+    margin-left: 10px;
+}
+
+.advantages .item p {
+    margin-top: 30px;
+    color: #808080;
+    line-height: 24px;
+}
+
+.advantages h2 {
+    margin-bottom: 60px;
+}
+
+/* work - как мы работаем */
+.work {
+    background: linear-gradient(to left bottom, rgb(226, 128, 250), rgb(204, 168, 255), #fff,#fff, rgb(235, 156, 235) 85%);
+}
+
+.work .desc {
+    display: inline-block;
+    width: 35%;
+    vertical-align: 230px;
+}
+
+.work img {
+    width: 50%;
+    vertical-align: 80px;
+    margin-right: 40px;
+}
+
+.work ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.work ul li {
+    display: inline-block;
+}
+
+.work ul li:nth-of-type(2n) {
+    background-color: #fff;
+    width:30px;
+    height: 2px;
+    margin: 0 14px;
+    vertical-align: 5px;
+}
+
+.work ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.work ul li:first-child > a {
+    color: #4754EB;
+} 
+
+.work .container > h2 {
+    margin-bottom: 80px;
+}
+
+.work .desc h2 {
+    margin: 20px 0;
+}
+
+.work label {
+    color: #4754EB;
+    margin-bottom: 20px;
+    display: inline-block;
+    line-height: 24px;
+}
+
+.work .desc p {
+    color: #808080;
+    margin-bottom: 10px;
+}
+
+.work .desc .btn {
+    margin-top: 50px;
+}
+
+/* prices - ныши тарифы */
+.prices h2 {
+    margin-bottom: 40px;
+}
+
+/* делаем формат стобцов  */
+.prices .item {
+    width: 270px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.prices .type h3 {
+    margin-bottom: 5px;
+} 
+
+.prices span {
+    font-size: 20px;
+}
+
+.prices .price {
+    color: #4754EB;
+    font-weight: bold;
+}
+
+.prices .time {
+    color: #808080;
+}
+
+.prices .item ul {
+    padding: 20px;
+    margin-top: 30px;
+    list-style-image: url(img/Group_3.png);
+}
+
+.prices .item ul li {
+    padding-left: 27px;
+    color: #808080;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+/* Галочки*/
+.prices .item:first-of-type ul li:nth-child(1)::marker,
+.prices .item:nth-of-type(2) ul li:nth-child(1)::marker,
+.prices .item:nth-of-type(3) ul li:nth-child(1)::marker,
+.prices .item:last-child ul li:nth-child(1)::marker {
+    content: url(img/Vector_3.png);
+}
+.prices .item:nth-of-type(2) ul li:nth-child(2)::marker,
+.prices .item:nth-of-type(3) ul li:nth-child(2)::marker,
+.prices .item:last-child ul li:nth-child(2)::marker {
+    content: url(img/Vector_3.png);
+}
+.prices .item:nth-of-type(3) ul li:nth-child(3)::marker,
+.prices .item:last-child ul li:nth-child(3)::marker {
+    content: url(img/Vector_3.png);
+}
+.prices .item:last-child ul li:nth-child(4)::marker {
+    content: url(img/Vector_3.png);
+}
+
+.prices .item a {
+    margin-left: 80px;
+    color: #4754EB;
+    text-decoration: none;
+}
+
+/* feedback - отзовы */
+.feedback h2 {
+    margin-bottom: 60px;
+}
+
+.feedback .item {
+    width: 558px;
+    display: inline-block;
+    margin: 10px 5px 5px 10px;
+    padding: 10px;
+}
+
+.feedback .item p {
+    color: #808080; 
+    line-height: 24px;  
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.feedback {
+    background-image: 
+    linear-gradient(to right, #fff 30%, violet);
+}
+
+.feedback .rating_1 span,
+.feedback .rating_2 span,
+.feedback .rating_3 span,
+.feedback .rating_4 span,
+.feedback .rating_5 span {
+    color: #4754EB;
+    font-size: 24px;
+}
+
+.feedback img {
+    border-radius: 50%;
+}
+
+.feedback .rating_3 > span:nth-of-type(5) {
+    color: #80808077;
+}
+
+.feedback .rating_4 > span:nth-of-type(4),
+.feedback .rating_4 > span:nth-of-type(5) {
+    color: #80808077;
+}
+
+.feedback label {
+    color: #808080;
+    vertical-align: 25px;
+    padding-left: 280px;
+}
+.feedback .container {
+    position: relative;
+    height: 580px;
+}
+.feedback .item{
+    position: absolute;
+}
+.feedback .item:nth-of-type(2){
+    left: 300px;
+    top: 60px;
+    z-index: 1;
+}
+.feedback .item:nth-of-type(3){
+    position: absolute;
+    left: 150px;
+    top: 300px
+}
+.feedback .item:nth-of-type(4){
+    position: absolute;
+    left: 620px;
+    top: 180px;
+    z-index: 2;
+}
+
+.feedback h3 {
+    display: inline-block;
+    vertical-align: 25px;
+    padding-left: 10px;
+}
+
+.feedback .item {
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.feedback .right_box {
+    text-align: right;
+}
+.feedback .btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.feedback a {
+    font-weight: bold;
+    margin: 25px;
+} 
+
+/* discount - Получите самую выгодную цену на планете */
+.discount .text {
+    display: inline-block;
+    vertical-align: 250px;
+    width: 45%;
+}
+
+.discount h1 {
+    font-size: 56px;
+    line-height: 70px;
+    margin-bottom: 40px;
+}
+
+.discount .form {
+    margin-bottom: 30px;
+}
+
+.discount input[type="submit"]{
+    background-color: #4754EB;
+    color: #fff;
+}
+
+.discount p {
+    width: 70%;
+    height: 15px;
+}
+
+/* faq - Часто задаваемые вопросы */
+.faq {
+    background: linear-gradient(to top right,rgb(228, 190, 253), rgb(202, 202, 255) 10%,#fff 30%, #fff 70%, rgb(255, 213, 255) 90%);
+}
+
+.faq .container> h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.faq .panel {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 20px 40px;
+    position: relative;
+}
+
+.faq input {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    cursor: pointer;
+}
+
+.faq p {
+    border: 2px solid #fff;
+    border-radius: 0 0 16px 16px;
+    background-color: rgba(255,255,255,0.1);
+    color:#808080;
+    position: relative;
+    top: 20px;
+    padding-top: 40px 40px 24px 24px;
+    line-height: 24px;
+    display: none;
+}
+
+.faq ul {
+    list-style: none;
+}
+
+.faq li:not(:last-of-type) {
+    margin-bottom: 15px;
+}
+
+/* Кнопка */
+.faq input {
+    appearance: none;
+    width: 55px;
+    height: 55px;
+    background-image: url(img/Component_1.png);
+    background-size: cover;
+}
+
+.faq input:checked{
+    background-image: url(img/Component1.png);
+}
+
+.faq input:checked + p {
+    display: block;
+}
+
+/* connection - обратная связь */
+.connection .item {
+    display: inline-block;
+
+    width: 45%;
+}
+
+.connection h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.connection p {
+    border-radius: 0 0 16px 16px;
+    color:#808080;
+    width: 410px;
+}
+
+.connection input {
+    margin: 10px;
+}
+
+.connection input[type="submit"]{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.connection form p {
+    display: inline-block;
+    width: 250px;
+    vertical-align: -10px;
+}
+
+/* footer */
+footer {
+    background-color: #4754EB;
+}
+
+footer div>div {
+    display: inline-block;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 768px;
+    vertical-align: 18px;
+}
+
+footer h4 {
+    color: #fff;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+footer p {
+   color: #D9D9D9;
+   width: 200px;
+   line-height: 20px;
+}
